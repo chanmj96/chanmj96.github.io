@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  font-size: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+}
+
+.navigation > span {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.footer {
+  color: #FFFFFF;
+  background-color: #413F54;
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: bold;
+  height: 15rem;
+  justify-content: center;
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+/* Content */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+.title {
+  color: #141c3a;
+}
+
+.subtitle {
+  color: rgba(10, 10, 10, 0.4);
+}
+
+p, .subtitle {
+  font-size: 1.5rem;
+}
+
+.home {
+  text-align: center;
+}
+
+section {
+  padding: 4rem 2rem;
+}
+
+.about-me {
+  background-color: #3777FF;
+  color: #FFFFFF;
+}
