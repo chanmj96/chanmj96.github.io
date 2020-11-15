@@ -1,6 +1,6 @@
-import Footer from './Footer';
-import Header from './Header';
-import Home from './Home';
+import Footer from './sections/Footer';
+import Header from './sections/Header';
+import Home from './sections/Home';
 
 function App() {
   return (

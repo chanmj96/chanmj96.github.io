@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+/* Theme */
+
 html {
   font-size: 1rem;
 }
@@ -32,11 +34,9 @@ html {
 .footer {
   color: #FFFFFF;
   background-color: #413F54;
-  display: flex;
   font-size: 1.25rem;
   font-weight: bold;
-  height: 15rem;
-  justify-content: center;
+  height: 22rem;
   padding: 4rem 2rem;
   width: 100%;
 }
@@ -52,12 +52,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .subtitle {
-  color: rgba(10, 10, 10, 0.4);
+  color: rgba(10, 10, 10, 0.8);
 }
 
 p, .subtitle {
   font-size: 1.5rem;
 }
+
+/* Sections */
 
 .home {
   text-align: center;
@@ -68,6 +70,37 @@ section {
 }
 
 .about-me {
-  background-color: #3777FF;
+  background-color: #86a6ff;
   color: #FFFFFF;
+  padding-bottom: 10rem;
+}
+
+.card {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: .5rem;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.card-section {
+  padding: 2rem;
+}
+
+.card-section.column:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience {
+  margin-top: -10rem;
+}
+
+.icon-wrapper {
+  padding: .5rem 1rem 0 0;
 }
