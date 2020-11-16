@@ -1,3 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "partials/card";
+@import "partials/theme";
+
+@import "sections/about_me";
+@import "sections/experience";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,35 +18,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-/* Theme */
-
-html {
-  font-size: 1rem;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  height: 5rem;
-  width: 100%;
-}
-
-.navigation > span {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-right: 1rem;
-}
-
-.footer {
-  color: #FFFFFF;
-  background-color: #413F54;
-  font-size: 1.25rem;
-  font-weight: bold;
-  height: 22rem;
-  padding: 4rem 2rem;
-  width: 100%;
 }
 
 /* Content */
@@ -59,7 +38,7 @@ p, .subtitle {
   font-size: 1.5rem;
 }
 
-/* Sections */
+/* Custom */
 
 .home {
   text-align: center;
@@ -69,36 +48,13 @@ section {
   padding: 4rem 2rem;
 }
 
-.about-me {
-  background-color: #86a6ff;
-  color: #FFFFFF;
-  padding-bottom: 10rem;
-}
-
-.card {
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-  border-radius: .5rem;
-}
-
 .flex-row {
   display: flex;
-}
-
-.card-section {
-  padding: 2rem;
-}
-
-.card-section.column:first-child {
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .column {
   display: flex;
   flex-direction: column;
-}
-
-.experience {
-  margin-top: -10rem;
 }
 
 .icon-wrapper {

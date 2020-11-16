@@ -7,7 +7,7 @@ function Icon(props) {
     return (
         <div className={wrapperClass}>
             <svg xmlns="http://www.w3.org/2000/svg" height={height} width={width} viewBox="0 0 24 24" {...otherProps}>
-                <path fill={fill} d={Icons.find((icon) => icon.name == iconName)["path-d"]} />
+                <path fill={fill} d={Icons.find((icon) => icon.name === iconName)["path-d"]} />
             </svg>
         </div>
     );
