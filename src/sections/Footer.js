@@ -1,11 +1,13 @@
 import Icon from '../components/Icon.js';
+import logo from '../images/logo-white.svg';
 
 function Footer() {
     return (
         <div className="footer">
             <div className="flex-row justify-content-center">
                 <div className="column">
-                    <h3>Contact Me</h3>
+                    <img alt="logo" className="logo-icon-white" src={logo} />
+                    <h2 className="my-5">Contact Me</h2>
 
                     <div className="flex-row">
                         <a href="https://github.com/chanmj96"
